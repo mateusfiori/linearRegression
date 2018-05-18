@@ -19,7 +19,7 @@ X = boston.data
 y = boston.target
 
 #divisao do conjuto de treinamento e conjunto de teste
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.45, random_state=42, shuffle=True)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.15, random_state=42, shuffle=True)
 
 #instanciacao do regressor linear
 lr = LinearRegression(normalize=True)
