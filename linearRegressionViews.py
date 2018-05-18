@@ -38,7 +38,7 @@ while testSize < 0.5:
     #Scores provenientes de Regression Metrics (sklearn.metrics)
     R2 = r2_score(y_test, y_pred)
 
-    print("Test size: {}\t\tR2 Score: {}".format(round(testSize, 2), R2))
+    print("Test size: {}\t\t\tR2 Score: {}".format(round(testSize, 2), R2))
 
     vecR2testSize.append(R2)
     testSize += 0.05
