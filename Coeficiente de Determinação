@@ -1,0 +1,13 @@
+Coeficiente de determinação
+
+CD = 1 - MSE/sum(variance)
+
+MSE = {1/2n} sum (y_test - y_pred) ** 2
+Variance = (y_true - u) ** 2, u -> média dos valores reais (y_true ou y_test)
+
+MSE/sum(variance) que é também conhecido como FVU
+
+FVU = fraction of variance unexplained
+i.e soma da variancia dos erros (variancia nao explicada) sobre o a variancia total do modelo
+
+CD = 1 - FVU 

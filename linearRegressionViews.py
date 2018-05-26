@@ -43,6 +43,7 @@ while testSize < 0.5:
     vecR2testSize.append(R2)
     testSize += 0.05
 
+print("")
 '''
 x = []
 i = 0.1
