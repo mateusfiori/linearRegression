@@ -3,7 +3,7 @@ from sklearn.datasets import load_boston
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score
 from sklearn.feature_selection import SelectKBest
-from sklearn.feature_selection import f_regression
+from sklearn.feature_selection import f_regression, mutual_info_regression
 import numpy as np
 import matplotlib.pyplot as plt
 import linearRegressionPCA as r2PCA
@@ -31,7 +31,8 @@ n_components = X.shape[1]
 
 while n_components > 1:
 
-    X_new = SelectKBest(f_regression, k=n_components).fit_transform(X, y)
+    #X_new = SelectKBest(f_regression, k=n_components).fit_transform(X, y)
+    X_new = SelectKBest(mutual_info_regression, k=n_components).fit_transform(X, y)
 
     #divisao do conjuto de treinamento e conjunto de teste
     X_train, X_test, y_train, y_test = train_test_split(X_new, y, test_size=0.15, random_state=42, shuffle=True)

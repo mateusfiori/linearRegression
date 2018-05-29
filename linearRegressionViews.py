@@ -20,14 +20,14 @@ testSize = 0.1
 
 print("")
 
+# instanciacao do regressor linear
+lr = LinearRegression(normalize=True)
+
 #score R2 de acordo com o tamanho do conjunto de treinamento
 while testSize < 0.5:
 
     #divisao do conjuto de treinamento e conjunto de teste
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=testSize, random_state=42, shuffle=True)
-
-    #instanciacao do regressor linear
-    lr = LinearRegression(normalize=True)
 
     #Ajuste dos parametros
     lr.fit(X_train, y_train)
