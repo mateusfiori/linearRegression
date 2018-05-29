@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4073016b-dec2-4dbf-8c1c-ca6975ef6c6c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/featureSelectionBHP.py" beforeDir="false" afterPath="$PROJECT_DIR$/featureSelectionBHP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linearRegressionViews.py" beforeDir="false" afterPath="$PROJECT_DIR$/linearRegressionViews.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ridgeRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/ridgeRegression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linearRegresion.py" beforeDir="false" afterPath="$PROJECT_DIR$/linearRegresion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linearRegression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/linearRegression.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,85 +15,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="linearRegresion.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="linearRegresion.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/linearRegresion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="25" lean-forward="true" selection-end-line="58" />
+            <state relative-caret-position="468">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pearson.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pearson.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="featureSelectionBHP.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/featureSelectionBHP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+            <state relative-caret-position="-84">
+              <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lassoRegression.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lassoRegression.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plot.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="42" selection-start-line="42" selection-end-line="43" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="linearRegressionViews.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linearRegressionViews.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plotR2Regressions.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/plotR2Regressions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ridgeRegression.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ridgeRegression.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,12 +62,13 @@
         <option value="$PROJECT_DIR$/linearRegressionPCA.py" />
         <option value="$PROJECT_DIR$/plot.py" />
         <option value="$PROJECT_DIR$/advancedSlicing.py" />
-        <option value="$PROJECT_DIR$/featureSelectionBHP.py" />
-        <option value="$PROJECT_DIR$/linearRegresion.py" />
         <option value="$PROJECT_DIR$/linearRegressionViews.py" />
         <option value="$PROJECT_DIR$/lassoRegression.py" />
         <option value="$PROJECT_DIR$/ridgeRegression.py" />
         <option value="$PROJECT_DIR$/plotR2Regressions.py" />
+        <option value="$PROJECT_DIR$/featureSelectionBHP.py" />
+        <option value="$PROJECT_DIR$/linearRegresion.py" />
+        <option value="$PROJECT_DIR$/pearson.py" />
       </list>
     </option>
   </component>
@@ -171,7 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.plotR2Regressions">
+  <component name="RunManager" selected="Python.plot">
     <configuration name="featureSelectionBHP" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="linearRegression" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -271,10 +216,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.plot" />
+        <item itemvalue="Python.featureSelectionBHP" />
         <item itemvalue="Python.plotR2Regressions" />
         <item itemvalue="Python.lassoRegression" />
-        <item itemvalue="Python.featureSelectionBHP" />
-        <item itemvalue="Python.plot" />
         <item itemvalue="Python.ridgeRegression" />
       </list>
     </recent_temporary>
@@ -294,14 +239,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="25" width="1865" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24986595" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50187665" side_tool="true" weight="0.32946146" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49812332" visible="true" weight="0.32910052" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49812332" weight="0.32910052" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -694,26 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/featureSelectionBHP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linearRegresion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="25" lean-forward="true" selection-end-line="58" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ridgeRegression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -724,10 +648,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lassoRegression.py">
+    <entry file="file://$PROJECT_DIR$/plotR2Regressions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        <state relative-caret-position="204">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -754,10 +678,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plotR2Regressions.py">
+    <entry file="file://$PROJECT_DIR$/lassoRegression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="186">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pearson.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/featureSelectionBHP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linearRegresion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>

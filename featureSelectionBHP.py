@@ -48,6 +48,10 @@ while n_components > 1:
     vecFeatureSelection.append(r2_score(y_test, y_pred))
     n_components -= 1
 
+F, pval = f_regression(X, y)
+
+print("{} \n\n {}".format(F, pval))
+
 #plot R2 x n_components Select K Best
 x = []
 i = 13

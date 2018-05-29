@@ -7,6 +7,7 @@ from sklearn.metrics import mean_absolute_error
 from sklearn.metrics import median_absolute_error
 from sklearn.metrics import r2_score
 from sklearn.metrics import mean_squared_error
+from scipy.stats import pearsonr as pearson
 
 #existem duas principais divisoes do dataset Boston Housing Prices
 #boston.data eh a matriz que contem todas as caracteristicas de cada item do dataset
