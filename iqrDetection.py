@@ -11,12 +11,17 @@ boston = load_boston()
 
 X = boston.data
 
+#tamanho padrao da janela do grafico
+plt.figure(figsize=(12, 9))
+
+plt.subplot(2, 1, 1)
+plt.boxplot(X)
+plt.title('Boxplot from BHP')
+
 #declaracao das variaveis que serao utilizdas no laço
 feat = 0
 outliers = []
 
-#tamanho padrao da janela do grafico
-plt.figure(figsize=(12, 8))
 
 #laço principal que passara por todas as 13 colunas do dataset
 while feat < 13:
@@ -40,6 +45,7 @@ while feat < 13:
     col = np.empty(auxVet.__len__())
     col.fill(feat)
 
+    plt.subplot(2, 1, 2)
     #plot dos outliers x -> numero da coluna, y -> valores dos outliers
     plt.scatter(col, auxVet)
 
@@ -54,6 +60,8 @@ plt.title('Outliers detected through IQR')
 plt.xlabel('Coluna')
 plt.ylabel('Outliers')
 plt.xticks(x1)
+
+plt.tight_layout()
 plt.show()
 
 
