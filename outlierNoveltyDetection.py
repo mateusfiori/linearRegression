@@ -25,9 +25,7 @@ x1 = np.arange(labelX.__len__())
 plt.title('IQR')
 plt.xlabel('Index da coluna')
 plt.ylabel('IQR value')
-plt.plot(x1, colArray)
+plt.scatter(x1, colArray)
 plt.xticks(x1, labelX)
 
 plt.show()
-
-

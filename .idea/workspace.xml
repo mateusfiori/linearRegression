@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4073016b-dec2-4dbf-8c1c-ca6975ef6c6c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/outliearNoveltyDetection.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,19 +17,31 @@
       <file leaf-file-name="linearRegresion.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linearRegresion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+            <state relative-caret-position="18">
+              <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="outliearNoveltyDetection.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/outliearNoveltyDetection.py">
+      <file leaf-file-name="outlierNoveltyDetection.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/outlierNoveltyDetection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <state relative-caret-position="396">
+              <caret line="22" column="13" selection-start-line="22" selection-end-line="23" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iqrDetection.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/iqrDetection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-228">
+              <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,8 +50,11 @@
       <file leaf-file-name="plot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-end-line="1" />
+            <state relative-caret-position="-12">
+              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,6 +85,9 @@
         <option value="$PROJECT_DIR$/linearRegresion.py" />
         <option value="$PROJECT_DIR$/pearson.py" />
         <option value="$PROJECT_DIR$/.ipynb_checkpoints/outliearNoveltyDetection.py" />
+        <option value="$PROJECT_DIR$/plotOutlier.py" />
+        <option value="$PROJECT_DIR$/outlierNoveltyDetection.py" />
+        <option value="$PROJECT_DIR$/iqrDetection.py" />
       </list>
     </option>
   </component>
@@ -86,7 +105,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,15 +112,11 @@
               <item name="linearRegression" type="b2602c69:ProjectViewProjectNode" />
               <item name="linearRegression" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="linearRegression" type="b2602c69:ProjectViewProjectNode" />
-              <item name="linearRegression" type="462c0819:PsiDirectoryNode" />
-              <item name=".ipynb_checkpoints" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -121,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.outliearNoveltyDetection">
+  <component name="RunManager" selected="Python.iqrDetection">
     <configuration name="featureSelectionBHP" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="linearRegression" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,7 +154,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="lassoRegression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="iqrDetection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="linearRegression" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -152,7 +166,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lassoRegression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/iqrDetection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -215,17 +229,17 @@
     <list>
       <item itemvalue="Python.plot" />
       <item itemvalue="Python.featureSelectionBHP" />
-      <item itemvalue="Python.lassoRegression" />
       <item itemvalue="Python.plotR2Regressions" />
       <item itemvalue="Python.outliearNoveltyDetection" />
+      <item itemvalue="Python.iqrDetection" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.iqrDetection" />
         <item itemvalue="Python.outliearNoveltyDetection" />
         <item itemvalue="Python.plot" />
         <item itemvalue="Python.featureSelectionBHP" />
         <item itemvalue="Python.plotR2Regressions" />
-        <item itemvalue="Python.lassoRegression" />
       </list>
     </recent_temporary>
   </component>
@@ -244,13 +258,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="25" width="1865" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24986595" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50187665" side_tool="true" weight="0.32946146" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49812332" weight="0.32910052" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49812332" visible="true" weight="0.32910052" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -273,30 +288,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/advancedSlicing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ridgeRegression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/featureSelectionBHP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/linearRegresion.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
@@ -329,9 +320,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1098">
           <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -582,9 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -595,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linearRegresion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/linearRegressionViews.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-288">
@@ -609,19 +587,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plot.py">
+    <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/outliearNoveltyDetection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="19" selection-end-line="1" />
+          <caret selection-end-line="30" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/outliearNoveltyDetection.py">
+    <entry file="file://$PROJECT_DIR$/linearRegresion.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        <state relative-caret-position="18">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outlierNoveltyDetection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="13" selection-start-line="22" selection-end-line="23" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotOutlier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iqrDetection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228">
+          <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
