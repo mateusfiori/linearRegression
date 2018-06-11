@@ -22,7 +22,6 @@ plt.title('Boxplot from BHP')
 feat = 0
 outliers = []
 
-
 #laço principal que passara por todas as 13 colunas do dataset
 while feat < 13:
 
