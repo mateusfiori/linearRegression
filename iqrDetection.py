@@ -22,16 +22,25 @@ plt.title('Boxplot from BHP')
 feat = 0
 outliers = []
 
+#print header
+print("\t\t\t\t\t\t\tQ1\tQ3\tMediana\tIQR")
+
 #laço principal que passara por todas as 13 colunas do dataset
 while feat < 13:
 
     #valores do primeiro e do terceiro quartil (Q1 e Q3)
-    q1, q3 = np.percentile(X[:, feat], [25, 75])
+    q1, median, q3 = np.percentile(X[:, feat], [25, 50, 75])
 
     #valor da amplitude interquartil (IQR) tambem poderia ser obtida por Q3 - Q1
     IQR = iqr(X[:, feat])
 
-    #estrutur auxiliar para o armzenamento dos outliers
+    print("Coluna {}\t->\t{:8}\t{:8}\t{:8}\t{:8}".format(feat, round(q1, 2), round(q3, 2), round(median, 2),round(IQR, 2)))
+
+
+    #print("Coluna {}\t->\tQ1: {:8}\tQ3: {:8}\tMediana: {:8}\tIQR: {:8}".format(feat, round(q1, 2),
+    #                                                                            round(q3, 2), round(median, 2), round(IQR, 2)))
+
+    #estrutura auxiliar para o armzenamento dos outliers
     auxVet = []
 
     #laco que passara por todos os elemento da coluna de indice 'feat' em busco de outliers
