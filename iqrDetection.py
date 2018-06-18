@@ -23,7 +23,8 @@ feat = 0
 outliers = []
 
 #print header
-print("\t\t\t\t\t\t\tQ1\tQ3\tMediana\tIQR")
+print("\t\t\t     {:16}{:13}{:18}{:16}".format('Q1', 'Q3', 'Mediana', 'IQR'))
+print()
 
 #laço principal que passara por todas as 13 colunas do dataset
 while feat < 13:
@@ -34,7 +35,7 @@ while feat < 13:
     #valor da amplitude interquartil (IQR) tambem poderia ser obtida por Q3 - Q1
     IQR = iqr(X[:, feat])
 
-    print("Coluna {}\t->\t{:8}\t{:8}\t{:8}\t{:8}".format(feat, round(q1, 2), round(q3, 2), round(median, 2),round(IQR, 2)))
+    print("Coluna {}\t{:16.4}{:16.4}{:16.4}{:16.4}".format(feat, q1, q3, median, IQR))
 
 
     #print("Coluna {}\t->\tQ1: {:8}\tQ3: {:8}\tMediana: {:8}\tIQR: {:8}".format(feat, round(q1, 2),
@@ -62,6 +63,8 @@ while feat < 13:
 
     feat += 1
 
+print()
+
 #configurações gerais do grafico
 x1 = np.arange(feat)
 plt.title('Outliers detected through IQR')
@@ -70,6 +73,6 @@ plt.ylabel('Outliers')
 plt.xticks(x1)
 
 plt.tight_layout()
-plt.show()
+#plt.show()
 
 
