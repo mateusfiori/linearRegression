@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 #carregamento do datset
 boston = load_boston()
 
-X = boston.data
+X = boston['data']
 
 #tamanho padrao da janela do grafico
 plt.figure(figsize=(12, 9))
@@ -73,6 +73,6 @@ plt.ylabel('Outliers')
 plt.xticks(x1)
 
 plt.tight_layout()
-#plt.show()
+plt.show()
 
 

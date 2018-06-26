@@ -15,8 +15,8 @@ from sklearn.metrics import mean_squared_error
 #instanciacao do dataset Boston Housing Prices
 boston = load_boston()
 
-X = boston.data
-y = boston.target
+X = boston['data']
+y = boston['target']
 
 vecR2testSize = []
 testSize = 0.1
